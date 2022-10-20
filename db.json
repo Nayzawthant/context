@@ -1,0 +1,66 @@
+{
+    "data" : [
+   {
+       "id": 1,
+       "title": "'What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?'",
+       "cate" : ["Trance", "House", "Drum and Bass"],
+       "answer": "House"
+   },
+   {
+       "id": 2,
+       "title": "'Which of these languages was NOT included in the 2016 song Dont Mind by Kent Jones?'",
+       "cate" : ["French", "Portuguese", "Japanese"],
+       "answer":"Japanese"
+   },
+   {
+       "id": 3,
+       "title": "Drink the Sea is an album by which electronic music artist?",
+       "cate" : ["Trance", "House", "Drum and Bass"],
+       "answer": "Trance"
+   },
+   {
+       "id": 4,
+       "title": "Who is the artist of the recent new album the Uncanny Valley?",
+       "cate" : ["Perturbator", "Carpenter Brut", "GOST", "Dan Terminus"],
+       "answer": "Perturbator"
+   },
+   {
+       "id": 5,
+       "title": "What position does Harry Potter play in Quidditch?",
+       "cate" : ["Keeper", "Seeker", "Chaser", "Beater"],
+       "answer": "Chaser"
+   },
+   {
+       "id": 6,
+       "title": "What position does Harry Potter play in Quidditch?",
+       "cate" : ["Exodus", "Numbers", "Genesis", "Leviticus"],
+       "answer": "Genesis"
+   },
+   {
+       "id": 7,
+       "title": "What was the pen name of novelist, Mary Ann Evans?",
+       "cate" : ["George Saunders", "George Orwell", "George Eliot", "George Bernard Shaw"],
+       "answer": "George Saunders"
+   },
+   {
+       "id": 8,
+       "title": "Who wrote the childrens story The Little Match Girl?",
+       "cate" : ["Oscar Wilde", "Charles Dickens", "Hans Christian Andersen", "Lewis Carroll"],
+       "answer": "Charles Dickens"
+   },
+   {
+       "id": 9,
+       "title": "According to The Hitchhikers Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+       "cate" : ["Chocolate", "42", "Loving everyone around you", "Death"],
+       "answer": "42"
+   },
+   {
+       "id": 10,
+       "title": "The book The Little Prince was written by...",
+       "cate" : ["Antoine de Saint-Exupery", "F.Scott Fizgerald", "Miguel de Cervantes Saavedra", "Jane Austen"],
+       "answer": "F.Scott Fizgerald"
+   }
+   
+]
+
+}
