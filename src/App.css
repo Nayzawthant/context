@@ -156,7 +156,7 @@ button.prev:hover{
   text-align: center;
   position: absolute;
   border-radius: 20px;
-  padding: 4rem;
+  padding:30px 100px;
   background-color: #f3f3f3;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   top: 50%;
@@ -179,6 +179,7 @@ button.prev:hover{
   border: none;
   outline: none;
   border-radius: 30px;
+  margin-top: 15px;
 }
 
 .again:hover{
@@ -190,4 +191,8 @@ button.prev:hover{
 
 .last-result {
   margin-bottom: 20px;
+}
+
+.addParcent {
+  color: #f88;
 }

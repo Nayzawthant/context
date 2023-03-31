@@ -1,3 +1,6 @@
+import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+
 import './App.css';
 
 import React, {useState , useEffect} from 'react';
@@ -7,11 +10,14 @@ import axios from 'axios';
 let result = []
 
 
+
+
 function App () {
     const [datas, setDatas] = useState([]);
     const [ star, setStar] = useState(0);
     const [parcent, setParcent] = useState(0);
     const [last, setLast] = useState(false);
+    let addParcent = parcent * 10;
     
     
 
@@ -117,7 +123,9 @@ function App () {
 
               <h4 className='last-result'>Your Answer</h4>
               
-              <h3>{parcent * 10}% / 100%</h3>
+              <div style={{width: 100, height: 100 }}>
+                <h3 ><CircularProgressbar value={addParcent} text={`${addParcent}%` } styles={buildStyles({pathColor: `rgba(255, 136, 136, ${addParcent / 100})`,textColor: '#f88', trailColor: '#d6d6d6',backgroundColor: '#3e98c7'})} /></h3>
+              </div>
               <button className='again' onClick={() => again()}>Play Again</button>
               </div>
             </div>
